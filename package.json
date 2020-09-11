@@ -1,0 +1,21 @@
+{
+  "name": "learn-mongoose",
+  "version": "1.0.0",
+  "description": "The boilerplate to learn mongoose",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "dev": "nodemon app"
+  },
+  "author": "Sagar Barapatre",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.3",
+    "validator": "^13.1.1"
+  }
+}
